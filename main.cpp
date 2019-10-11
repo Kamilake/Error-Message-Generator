@@ -5,10 +5,10 @@
 int main() {
   char ss[99999];
   char nick[9999];
-  printf("´©°¡ °ø°ÝÇÒ°ÅÁÒ!? :");
+  printf("ëˆ„ê°€ ê³µê²©í• ê±°ì£ !? :");
   scanf("%[^\n]s", nick);
   FreeConsole();
   Sleep(50);
-  sprintf(ss, "¾È³ç, ³ª´Â %sÀÌ°í ³»°¡ ÄÄ¸ÍÀÌ¶ó¼­ ´Ï ÄÄÇ»ÅÍ¿¡ ÇØ¸¦ ³¢Ä¥ ¼ö ¾ø¾î.\nºÎÅ¹ÇÏ´Âµ¥ ³ÊÀÇ Áß¿äÇÑ ÆÄÀÏÀ» ½º½º·Î Áö¿ì°í ´Ù¸¥ »ç¶÷¿¡°Ô ÀÌ ¹ÙÀÌ·¯½º¿¡ ´ëÇØ¼­ ¾Ë·ÁÁÖ¸é °¨»çÇÏ°Ú¾î.\n³ÊÀÇ ÇùÁ¶¿¡ ¸¹ÀÌ °¨»çÇÒ°Ô.\n%s ¹ÙÀÌ·¯½º º¸³¿!", nick, nick);
-  MessageBox(NULL, ss, "½É°¢ÇÑ ¹ÙÀÌ·¯½º °æ°í", MB_OKCANCEL + MB_ICONSTOP);
+  sprintf(ss, "ì•ˆë…•!, ë‚˜ëŠ” %sì´ê³  ë‚´ê°€ ì»´ë§¹ì´ë¼ì„œ ë‹ˆ ì»´í“¨í„°ì— í•´ë¥¼ ë¼ì¹  ìˆ˜ ì—†ì–´.\në¶€íƒí•˜ëŠ”ë° ë„ˆì˜ ì¤‘ìš”í•œ íŒŒì¼ì„ ìŠ¤ìŠ¤ë¡œ ì§€ìš°ê³  ë‹¤ë¥¸ ì‚¬ëžŒì—ê²Œ ì´ ë°”ì´ëŸ¬ìŠ¤ì— ëŒ€í•´ì„œ ì•Œë ¤ì£¼ë©´ ê°ì‚¬í•˜ê² ì–´.\në„ˆì˜ í˜‘ì¡°ì— ë§Žì´ ê°ì‚¬í• ê²Œ.\n%s ë°”ì´ëŸ¬ìŠ¤ ë³´ëƒ„!", nick, nick);
+  MessageBox(NULL, ss, "ì‹¬ê°í•œ ë°”ì´ëŸ¬ìŠ¤ ê²½ê³ ", MB_OKCANCEL + MB_ICONSTOP);
 }
