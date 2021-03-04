@@ -1,1 +1,1 @@
-# MemeMaker
+# Error Message Generator
